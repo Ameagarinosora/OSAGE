@@ -5,7 +5,7 @@ It draws inspiration from the classic Pascal unit model: modular includes, initi
 ## Features
 
 - **Unit / module system** – `uses`, `export`, `initialization` / `endinit`, `run_inits`
-- **Structured control flow** – `if` / `elif` / `else` / `endif`, `while` / `endwhile`, `repeat` / `until`, `for` / `endfor`, `loop` / `endloop`, `switch` / `case` / `default` / `endswitch`, `break`, `continue`, `unless`
+- **Structured control flow** – `if` / `elif` / `else` / `endif`, `while` / `endwhile`, `repeat` / `until`, `for` / `endfor`, `loop` / `endloop`, `switch` / `case` / `default` / `endswitch`, `break`, `continue`, `unless`/ `struct`, `method`, `instance`
 - **Functions** – `fn` / `endfn`, named parameters & locals (mapped to callee-saved registers), `call`, `return`
 - **Core utilities** – `push` / `pop`, `lea`, `buffer`, `string`, `imm` (64-bit immediates), bit-set helpers, reference helpers
 - **I/O** – stdout/stderr macros, `print_int` / `print_hex` / `print_flt`, `read_line`, `prompt`, file open/read/write/seek/close, ANSI color & cursor control, `argc` / `argv`, `sys_exit`
