@@ -29,7 +29,7 @@ OSAGE/
     ├── func.s              # Function definition & calling convention
     ├── io.s                # I/O and system-call wrappers
     ├── strings.s           # String helpers
-    ├── struct.s            # Example program (telemetry benchmark)
+    ├── struct.s            # Struct
     ├── rand.s              # Random number generation
     ├── time.s              # Timing utilities
     └── errorhandling.s     # Try / error-propagation macros
